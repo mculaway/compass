@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display&family=Vidaloka&display=swap');
+
+body{
+    background-color: #DAD7CD;
+    font-family: 'Inter', sans-serif;
+
+}
+.navbar-nav{
+    gap: 30px;
+    font-size: 20px;
+ 
+}
+.navbar-brand{
+    font-family: 'Playfair Display', serif;
+    color: #11324D;
+    font-size: 40px;
+   
+    padding-left: 0px;
+}
+.navbar-nav .active{
+    border-bottom: #344E41 solid 3px;
+}
+a.nav-link{
+    color: #11324D;
+    font-family: 'Playfair Display', serif;
+}
+.hero-section{
+    background: #344E41 ;
+    height: 500vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding-bottom: 20px;
+}
+
+.searchbtn{
+    background-color: #285430;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.editbtn{
+    background-color: #285430;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+   padding: 8px;
+}
+.addbtn{
+    background-color: #06340f;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+   padding: 8px;
+}
+.bookbtn{
+    background-color: #285430;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+   padding: 15px;
+}
+
+  
+.searchcnt{
+    padding-top: 60px;
+    
+}
+.travelTips{
+    color: white;
+    flex-direction: column;
+    font-family: 'Playfair Display', serif;
+    background: #344E41 ;
+    background-size: cover;
+    font-size: 14px;
+    padding-left: 50px;
+    padding-right: 60px;
+    height: 120vh;
+} 
+.packagess{
+    background: #344E41 ;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 110vh;
+}
+.card-body{
+    color: black;
+}
+\\BOOKING
+
+.bookingcnt{
+    background: white ;
+    color: white;
+}
+
+
+.carousel-item {
+    height: 660px;
+  }
+  
+  .item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 200px;
+  }
